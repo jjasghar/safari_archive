@@ -42,14 +42,6 @@ This extension uses the WebExtensions API, which is compatible with:
 - `test.html` - Test page with sample links to verify the extension works
 - `README.md` - This file
 
-## Icons
-
-The manifest references icon files (`icon-16.png`, `icon-48.png`, `icon-128.png`). You'll need to create these icons for the extension to work properly. You can:
-
-1. Create simple PNG icons (16x16, 48x48, 128x128 pixels)
-2. Use an online icon generator
-3. Temporarily remove the `icons` section from `manifest.json` for testing (though Safari may show warnings)
-
 ## Notes
 
 - The extension requires permissions for `contextMenus` and `tabs`
